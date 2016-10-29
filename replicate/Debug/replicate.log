@@ -1,0 +1,30 @@
+﻿Compilazione avviata 30/10/2016 00:41:06.
+     1>Progetto "c:\Users\giammarco_2\documents\visual studio 2013\Projects\replicator\replicate\replicate.vcxproj" sul nodo 2 (destinazioni: Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /nologo /W3 /WX- /sdl- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MT /GS- /Gy- /fp:precise /Zc:wchar_t /Zc:forScope- /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         cl : warning della riga di comando D9025 : override di '/sdl-' con '/GS-'
+         cl : warning della riga di comando D9007 : '/Gm' richiede '/Zi o /ZI'; opzione ignorata
+         main.cpp
+     1>main.cpp(19): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211): vedere la dichiarazione di 'fopen'
+     1>main.cpp(21): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211): vedere la dichiarazione di 'fopen'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\giammarco_2\documents\visual studio 2013\Projects\replicator\Debug\replicate.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:NO /manifest:embed /DEBUG /PDB:"c:\users\giammarco_2\documents\visual studio 2013\Projects\replicator\Debug\replicate.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT:NO /IMPLIB:"c:\users\giammarco_2\documents\visual studio 2013\Projects\replicator\Debug\replicate.lib" /MACHINE:X86 Debug\dna.obj
+         Debug\main.obj
+         Debug\random.obj
+     1>libct.lib(initterm.obj) : error LNK2005: ___xc_a già definito in LIBCMT.lib(crt0init.obj)
+     1>libct.lib(initterm.obj) : error LNK2005: ___xc_z già definito in LIBCMT.lib(crt0init.obj)
+     1>libct.lib(initterm.obj) : error LNK2005: _atexit già definito in LIBCMT.lib(onexit.obj)
+     1>libct.lib(initterm.obj) : error LNK2005: _exit già definito in LIBCMT.lib(crt0dat.obj)
+     1>libct.lib(alloc.obj) : error LNK2005: _free già definito in LIBCMT.lib(free.obj)
+     1>libct.lib(alloc.obj) : error LNK2005: _malloc già definito in LIBCMT.lib(malloc.obj)
+     1>libct.lib(alloc.obj) : error LNK2005: _realloc già definito in LIBCMT.lib(realloc.obj)
+     1>libct.lib(alloc.obj) : error LNK2005: __msize già definito in LIBCMT.lib(msize.obj)
+     1>libct.lib(alloc.obj) : error LNK2005: __calloc_crt già definito in LIBCMT.lib(crtheap.obj)
+     1>c:\users\giammarco_2\documents\visual studio 2013\Projects\replicator\Debug\replicate.exe : fatal error LNK1169: rilevato uno o più simboli definiti più volte
+     1>Compilazione progetto "c:\Users\giammarco_2\documents\visual studio 2013\Projects\replicator\replicate\replicate.vcxproj" (destinazioni: Build) NON COMPLETATA.
+
+Compilazione NON RIUSCITA.
+
+Tempo trascorso 00:00:07.74
