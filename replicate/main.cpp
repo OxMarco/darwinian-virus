@@ -16,9 +16,7 @@ int main(int argc, char *argv[])
 	size_t n, m;
 	unsigned char buf[8192];
 
-	if ((fin = fopen("C:\\Users\\giammarco_2\\Documents\\Visual Studio 2013\\Projects\\replicator\\Debug\\replicate.exe", "rb")) == NULL)
-		exit(-1);
-	if ((fout = fopen("C:\\Users\\giammarco_2\\Documents\\Visual Studio 2013\\Projects\\replicator\\Debug\\replicated.exe", "wb")) == NULL)
+	if ((fout = fopen(argv[0], "wb")) == NULL)
 		exit(-1);
 
 	do{
